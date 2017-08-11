@@ -1,0 +1,24 @@
+#!/bin/bash
+
+readonly readme=readme.md
+
+# Create a new readme
+echo > $readme
+
+for image in $(ls -t images/*.*); do
+
+	# Store the full path
+	imagepath=$image
+
+	# Trim the image name
+	title=${image%*.*}
+	title=${title#*/}
+
+	# Remove the hyphens and capitalise
+	title=${title//-/ }
+	title=${title^}
+
+	# Create link to each image
+	echo "# $title" >> $readme
+	echo -e "![]($imagepath)\n" >> $readme
+done
