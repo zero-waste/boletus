@@ -8,7 +8,7 @@ echo > $readme
 for image in $(ls -t images/*.*); do
 
 	# Store the full path
-	imagepath=$image
+	imagepath="$image"
 
 	# Trim the image name
 	title=${image%*.*}
