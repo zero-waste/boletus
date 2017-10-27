@@ -1,7 +1,4 @@
 
-# IMG_4806
-![](images/IMG_4806.JPG)
-
 # _MG_1337
 ![](images/_MG_1337.jpg)
 
