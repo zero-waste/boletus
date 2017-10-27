@@ -2,8 +2,8 @@
 # IMG_3833
 ![](images/IMG_3833.JPG)
 
-# _MG_1337
-![](images/_MG_1337.jpg)
+# IMG_1337
+![](images/IMG_1337.jpg)
 
 # IMG_3915
 ![](images/IMG_3915.JPG)
