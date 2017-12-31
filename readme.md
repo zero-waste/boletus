@@ -1,4 +1,3 @@
-
 # IMG_3833
 ![](images/IMG_3833.JPG)
 
